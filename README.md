@@ -1,6 +1,6 @@
 # kbMouse
 
-Developed on ahk 1.1.33.10
+Developed on ahk 1.1.33.10 | Haven't tried on other version
 
 Basic use: 
 Left Alt + (i, j, k, l): simulates basic arrow key
