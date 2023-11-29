@@ -1,4 +1,4 @@
-;kbmouse
+;kbmouse v4
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -97,6 +97,11 @@ LAlt & l::Send ^{Right 1}
 LAlt & j::Send ^#{Left 1}
 #if GetKeyState("LWin","P")
 LAlt & l::Send ^#{Right 1}
+#if GetKeyState("LWin","P")
+LAlt & i::Send ^#d
+#if GetKeyState("LWin","P")
+LAlt & k::Send ^#{F4}
+
 
 #if GetKeyState("LShift","P")
 LAlt & j::Send ^+{Left 1}
