@@ -9,9 +9,9 @@ Left Alt + (i, j, k, l): simulates basic arrow key
 ```
 
 ```bash
-Left Ctrl + Basic Use: simulates Ctrl + arrow key
-Left Shift + Basic Use: simulates Ctrl + Shift + arrow key
-Left Winkey + Basic Use: simulates Ctrl + Winkey + arrow key (changes desktop)
+Left Ctrl + Basic Use: Ctrl + arrow key
+Left Shift + Basic Use: Ctrl + Shift + arrow key
+Left Winkey + Basic Use: Ctrl + Winkey + arrow key (changes desktop)
 
 Scroll use:
 Right Alt + (r, f): scroll up & down
