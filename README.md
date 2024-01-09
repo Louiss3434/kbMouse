@@ -15,4 +15,7 @@ Left Winkey + Basic Use: Ctrl + Winkey + arrow key (switch, new, close desktop)
 
 Scroll use:
 Right Alt + (r, f): scroll up & down
+
+Directory Change:
+Left Alt + Right Alt + (j, l): Left Alt + arrow key (left, right)
 ```
