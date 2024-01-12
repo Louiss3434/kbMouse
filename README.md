@@ -2,6 +2,11 @@
 
 Developed on AHK 1.1.33.10 | Haven't tried on other version
 
+'''bash
+.exe only is fine.
+.ahk if customization is preferred (require ahk).
+'''
+
 ```bash
 # store at shell:startup
 Basic use: 
