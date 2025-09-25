@@ -13,16 +13,13 @@ Escape & o::Click Right
 
 ; --- Handle Escape pressed alone (tap or hold) ---
 ~Escape::
-    ; Start a short timer to decide if Esc is alone
-    KeyWait, Escape, T0.15  ; wait up to 150ms for a combo
+    KeyWait, Escape, T0.15
     if (ErrorLevel) {
-        ; still holding Escape = allow normal hold
-        Send {Escape down}
-        KeyWait, Escape
-        Send {Escape up}
+        ; still holding Escape
+        ; no need to resend down/up if you just want natural Esc
     } else {
-        ; quick tap without combo
-        Send {Escape}
+        ; quick tap
+        ; do nothing extra, since ~ already sent Esc
     }
 Return
 
